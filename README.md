@@ -9,42 +9,34 @@ This repository contains an overview of the CMPG 323 module. Below are the detai
 
 ### Project 1
 - **Repository Name:** [CMPG-323-Project1--42019222](https://github.com/FLEXBABY88/CMPG-323-Project1--42019222)
-- **Description:** This repository contains the code and documentation for Project 1, which focuses on [brief description of the project].
+- **Description:** This repository contains the code and documentation for Project 1.
 
 ### Project 2
 - **Repository Name:** [CMPG-323-Project2--42019222](https://github.com/FLEXBABY88/CMPG-323-Project2--42019222)
-- **Description:** This repository contains the code and documentation for Project 2, which focuses on [brief description of the project].
+- **Description:** This repository contains the code and documentation for Project 2.
 
 ### Project 3
 - **Repository Name:**[CMPG-323-Project3--42019222](https://github.com/FLEXBABY88/CMPG-323-Project3--42019222)
-- **Description:** This repository contains the code and documentation for Project 3, which focuses on [brief description of the project].
+- **Description:** This repository contains the code and documentation for Project 3.
 
 ### Project 4
 - **Repository Name:** [CMPG-323-Project4--42019222](https://github.com/FLEXBABY88/CMPG-323-Project4--42019222)
-- **Description:** This repository contains the code and documentation for Project 4, which focuses on [brief description of the project].
+- **Description:** This repository contains the code and documentation for Project 4.
 
 ### Project 5
 - **Repository Name:** [CMPG-323-Project5--42019222](https://github.com/FLEXBABY88/CMPG-323-Project5--42019222)
-- **Description:** This repository contains the code and documentation for Project 5, which focuses on [brief description of the project].
+- **Description:** This repository contains the code and documentation for Project 5.
 
   ## Branching Strategy
+The branching strategy for all of the 5 projects will be the main branch,  main branch as the sole branching strategy for all 5 projects as Changes can be deployed quickly, as they don't require merging from a separate branch also No need to create, manage, and merge branches, saving time and effort. 
 
-Each project repository will follow a branching strategy to ensure code quality and efficient collaboration:
 
-- **Main Branch (`main`):** The `main` branch contains the stable, production-ready code. All completed features and fixes will be merged into this branch.
-- **Development Branch (`develop`):** The `develop` branch is used for ongoing development and integration. All feature branches will be merged into this branch for testing and review before being merged into `main`.
-- **Feature Branches:** Each new feature or task will have its own branch, named `feature/<feature-name>`. These branches are created from `develop` and merged back into `develop` upon completion.
-- **Bugfix Branches:** Any bug fixes will be addressed in `bugfix/<bug-name>` branches, created from `develop` or `main` as appropriate.
-- **Release Branches:** When preparing a new release, a `release/<version>` branch will be created from `develop` for final testing and adjustments. Once ready, it will be merged into `main` and tagged.
+## .gitgnore USAGE: 
+Maintain a smaller and more organized repository by disregarding large or unnecessary files.Enabling file tracking leads to quicker Git activities.Concentrate on crucial files and folders for efficient navigation and comprehension of your project.
 
-### Example Workflow:
-1. Create a new feature branch from `develop`:
-   ```bash
-   git checkout develop
-   git pull origin develop
-   git checkout -b feature/<feature-name>
+## Storage of credentials and sensitive information:
+Restrict access to sensitive information to only those who need it ,the repository for all of these projects will be set to private and only allow certain people to view it ,also Monitor and audit access to sensitive information.
 
-## Conclusion
 
-This `README.md` file provides an overview of the repositories that will be used for each project in the CMPG 323 module. Detailed information about each project, including its scope and objectives, can be found in the respective repositories.
+
 
